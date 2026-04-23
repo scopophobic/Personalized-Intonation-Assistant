@@ -1,0 +1,16 @@
+# Backend
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+httpx>=0.27.0
+
+# Ear
+librosa>=0.10.0
+soundfile>=0.12.0
+numpy>=1.26.0
+
+# Voice (optional — install for neural TTS; otherwise macOS `say` is used on Darwin)
+# kokoro>=0.9.0
+
+# Dev / tests
+pytest>=8.0.0
